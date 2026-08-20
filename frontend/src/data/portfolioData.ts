@@ -5,7 +5,7 @@ export const HERO_DATA = {
   title: 'Construyo aplicaciones web, APIs y soluciones de automatización.',
   subtitle: 'Especializado en arquitectura de software, calidad de código y resolución de problemas técnicos complejos.',
   coreStack: ['TypeScript', 'Vue 3', 'Node.js', 'PostgreSQL', 'Express'],
-  email: 'alejopmotta@gmail.com', // Ajustable por el usuario
+  email: 'alejopmotta@gmail.com',
   github: 'https://github.com/DanExl24',
 }
 

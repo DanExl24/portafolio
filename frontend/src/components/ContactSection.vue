@@ -35,7 +35,7 @@
             <div class="space-y-1 mb-4">
               <span class="text-xs font-mono text-content-subtle block">Correo Electrónico</span>
               <span class="text-xs font-mono text-content-main truncate max-w-[180px] block" title="danexl24@gmail.com">
-                danexl24@gmail.com
+                alejopmotta@gmail.com
               </span>
             </div>
             <button 
@@ -89,8 +89,9 @@
               <span class="text-xs font-mono text-content-main block">PDF Actualizado</span>
             </div>
             <a 
-              href="#contacto"
-              @click.prevent="downloadCvMock"
+              href="/cv/Hoja_de_vida_jorge_alejandro.pdf"
+              download="Hoja_de_vida_jorge_alejandro.pdf"
+              target="_blank"
               class="w-full py-2 px-3 rounded-lg text-xs font-mono font-semibold bg-accent-warm hover:bg-accent-warm-hover text-content-main shadow-btn-warm transition-all flex items-center justify-center gap-1.5"
             >
               <span>Descargar CV</span>
@@ -112,7 +113,7 @@
 import { ref } from 'vue'
 
 const copied = ref(false)
-const emailAddress = 'danexl24@gmail.com'
+const emailAddress = 'alejopmotta@gmail.com'
 
 const copyEmail = async () => {
   try {
@@ -142,9 +143,5 @@ const copyEmail = async () => {
       copied.value = false
     }, 3000)
   }
-}
-
-const downloadCvMock = () => {
-  alert('Aquí se vinculará tu archivo CV en formato PDF (ejemplo: /cv-desarrollador.pdf).')
 }
 </script>
