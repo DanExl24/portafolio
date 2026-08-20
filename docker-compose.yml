@@ -1,6 +1,8 @@
+name: portafolio-jorge
+
 services:
   frontend:
-    container_name: portafolio-frontend
+    container_name: portafolio-jorge-frontend
     build:
       context: ./frontend
       args:
@@ -9,7 +11,6 @@ services:
     networks:
       - proxy-network
 
-
 networks:
   proxy-network:
-    external: true
+    external: true
