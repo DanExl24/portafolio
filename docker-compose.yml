@@ -5,8 +5,7 @@ services:
       context: ./frontend
       args:
         - VITE_API_URL=https://jorge.adsoproject.dev
-    restart:
-      - always
+    restart: always
     networks:
       - proxy-network
 
