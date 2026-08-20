@@ -76,6 +76,7 @@ export const PROJECTS_DATA: ProjectDetail[] = [
     shortDescription: 'Sistema web que automatiza la consulta, consolidación y visualización del historial de novedades y disponibilidad operacional del personal, integrándose con Google Drive API.',
     fullDescription: 'BIMEH centraliza y procesa datos operativos dispersos en hojas de cálculo en la nube, transformándolos en paneles de disponibilidad inmediata. Lee información de Google Drive, normaliza los datos y entrega reportes consolidados sobre el estado y novedades de los miembros del equipo.',
     githubUrl: 'https://github.com/DanExl24/BIMEH',
+    liveUrl: 'https://bimeh.adsoproject.dev/',
     tags: ['Vue 3', 'TypeScript', 'Python', 'FastAPI', 'PostgreSQL', 'Google Drive API', 'Docker'],
     upcomingNotice: 'El proyecto se encuentra en proceso de expansión hacia aplicaciones de escritorio y dispositivos móviles, reutilizando la arquitectura backend y los servicios existentes.',
     architecture: {
