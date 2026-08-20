@@ -1,8 +1,8 @@
 services:
-  fronted:
+  frontend:
     container_name: portafolio-frontend
     build:
-      context:  ./
+      context: ./frontend
       args:
         - VITE_API_URL=https://jorge.adsoproject.dev
     restart:
