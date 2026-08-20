@@ -1,0 +1,30 @@
+# ---- Dependencias de Node ----
+node_modules/
+**/node_modules/
+
+# ---- Compilados / builds ----
+dist/
+dist-ssr/
+build/
+
+# ---- Editor ----
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ---- TypeScript caches ----
+*.tsbuildinfo
+
+
+# ---- Certificados / llaves privadas ----
+*.pem
+*.p12
+*.pfx
+*.key
+*.cer
+*.crt

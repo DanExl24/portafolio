@@ -1,0 +1,16 @@
+services:
+  fronted:
+    container_name: portafolio-frontend
+    build:
+      context:  ./
+      args:
+        - VITE_API_URL=https://jorge.adsoproject.dev
+    restart:
+      - always
+    networks:
+      - proxy-network
+
+
+networks:
+  proxy-network:
+    external: true
